@@ -1,0 +1,101 @@
+#menu_form__div {
+  width: 90%;
+  max-width: 600px;
+  position: fixed;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: 8px solid black;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(17, 77, 208, 0.4) 0px 5px, 
+    rgba(145, 180, 237, 0.3) 0px 10px,
+    rgba(26, 12, 222, 0.2) 0px 15px,
+    rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  top: 50%;
+  left: 50%;
+}
+
+#menu__structure__desc {
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  margin-top: 28px;
+  font-size: 22px;
+  line-height: 0;
+}
+#menu__structure__desc p {
+  font-weight: 700;
+}
+#menu__structure {
+  padding: 2em;
+}
+
+.form_inputs {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.form_inputs input {
+  box-sizing: border-box;
+  color: black;
+  width: 100%;
+  margin: 0;
+  border: 4px solid black;
+  border-radius: 5px;
+  padding: 16px 20px;
+  font-size: 15px;
+  background-color: white;
+}
+.form_inputs label {
+  display: block;
+  line-height: 1.8em;
+  margin-bottom: 11px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.form_inputs button[type="submit"] {
+  margin-top: 31px;
+  cursor: pointer;
+  background-color: rgba(13, 63, 212, 0.7);
+  border: none;
+  color: #fff;
+  display: flex;
+  padding: 11px;
+  border-radius: 6px;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  width: 100%;
+}
+
+.form_inputs button:hover {
+  transition: 0.4s;
+  background-color: #4051bd;
+}
+
+.form_inputs button[type="submit"] svg {
+  width: 20px;
+  fill: #ede0e0;
+}
+
+
+/* #avatar__selection {
+  display: flex;
+  gap: 1em;
+}
+
+.avatar__option {
+  cursor: pointer;
+  width: 49px;
+  height: 49px;
+  border-radius: 45%;
+  transition: 0.3s;
+  border: 1px solid #737473;
+}
+
+.avatar__option__selected {
+  border: 3px solid #845695;
+} */
